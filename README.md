@@ -27,4 +27,4 @@
 # docker image:
 https://hub.docker.com/r/jaylenyin/nginx/
 
-docker run --log-driver=gelf --log-opt gelf-address=udp://127.0.0.1:1514  -d -p 80:80 jaylenyin/nginx
+docker run -d -p 80:80 jaylenyin/nginx
